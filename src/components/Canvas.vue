@@ -3,5 +3,9 @@
 </template>
 
 <script>
-    //TODO: add some sort of 3d model
+    import * as THREE from 'three'
+    //TODO: 3d model render implementation
+    export default {
+        
+    }
 </script>
