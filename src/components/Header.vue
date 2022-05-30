@@ -23,7 +23,9 @@
 
 <template>
     <header>
-        <nav class="themeswitch"></nav>
+        <nav class="themeswitch">
+            
+        </nav>
         <nav class="navlist">
             <a 
                 v-for="link in links"
