@@ -2,9 +2,11 @@
     --trans-border: rgba(0,0,0,0.1);
     --text-color: rgb(31, 31, 31);
     --bg-color: rgba(255,255,255,1);
+    --funky-color: #AD91FF;
 }
 
 html, body {
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     background-color: var(--bg-color);
     margin: 0;
@@ -14,11 +16,15 @@ html, body {
 }
  
 header {
+    background-color: var(--bg-color);
     display: flex;
     flex-wrap: wrap;
     margin: 0 25px 0 25px;
     padding: 15px;
     border-bottom: 2px solid var(--trans-border);
+    -webkit-box-shadow: 0 8px 6px -6px var(--trans-border);
+	-moz-box-shadow: 0 8px 6px -6px var(--trans-border);
+    box-shadow: 0 8px 6px -6px var(--trans-border);
 }
 
 header .navlist {
@@ -53,6 +59,14 @@ main .hero {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
+}
+
+main .hero #canvas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    align-content: center;
+    justify-content: center;
 }
 
 main .hero .hero-card {
