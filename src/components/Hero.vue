@@ -17,6 +17,3 @@ export default {
         <Canvas />
     </div>
 </template>
-
-<style>
-</style>
