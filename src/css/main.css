@@ -25,10 +25,7 @@ header {
     flex-wrap: wrap;
     margin: 0 25px 0 25px;
     padding: 15px;
-    border-bottom: 2px solid var(--trans-border);
-    -webkit-box-shadow: 0 8px 6px -6px var(--trans-border);
-	-moz-box-shadow: 0 8px 6px -6px var(--trans-border);
-    box-shadow: 0 8px 6px -6px var(--trans-border);
+    border-bottom: 1.5px solid var(--trans-border);
 }
 
 header .navlist {
